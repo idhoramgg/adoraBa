@@ -1,0 +1,75 @@
+body, html {
+    font-family: 'Pangolin', cursive;
+    background-color: #f7f7f7;
+}
+
+/* font-family: 'Pangolin', cursive; */
+/* font-family: 'Roboto Mono', monospace; */
+
+/* START NAVIGATION */
+
+.navigation {
+    /* padding-left: 750px; */
+    text-align: right;
+    margin-bottom:150px;
+}
+
+.navigation a{
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.navigation a:hover{
+    color: salmon;
+}
+
+/* END NAVIGATION */
+
+/* START MAIN */
+.main {
+    /* border: 2px solid #333; */
+    width: 600px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.main h1 {
+    font-size: 50px;
+}
+
+.main h5, i {
+    font-size: 20px;
+}
+
+
+.main h1,h5 {
+    padding-left: 100px;
+    color: #333;
+    margin: 10px;
+    letter-spacing: 5px;
+}
+
+.main h5 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.icon {
+    padding-left: 100px;
+    margin: 10px;
+}
+.icon i {
+    color: #333;
+    font-size: 20px;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+    margin-right: 5px;
+}
+
+/* END MAIN */
+
+/* ABOUT HTML */

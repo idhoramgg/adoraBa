@@ -1,0 +1,72 @@
+body, html {
+    font-family: 'Pangolin', cursive;
+    background-color: #f7f7f7;
+}
+
+/* font-family: 'Pangolin', cursive; */
+/* font-family: 'Roboto Mono', monospace; */
+
+/* START NAVIGATION */
+
+.navigation {
+    /* padding-left: 750px; */
+    text-align: right;
+    margin-bottom:150px;
+}
+
+.navigation a{
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.navigation a:hover{
+    color: salmon;
+}
+
+/* END NAVIGATION */
+
+.container {
+    min-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* margin: 0 auto; */
+    /* background-color: red; */
+    padding: 20px;
+    height: auto;
+    /* border: 1px solid black; */
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+} 
+
+.box {
+    width: 400px;
+    height: auto;
+    /* padding: 10px; */
+    /* border: 1px solid black; */
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+.box:hover {
+    opacity: 0.5;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.text-box {
+    padding: 10px;
+}
+
+.head h1 {
+    text-align: center;
+    font-size: 40px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
